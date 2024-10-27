@@ -1,0 +1,146 @@
+/* Imported Oxanium font in google */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Gaegu&family=Oxanium:wght@200..800&display=swap');
+
+/* General styles */
+body {
+    font-family: "Oxanium", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+a:focus {
+    color: #0056b3;
+}
+
+/* Header */
+.main-header {
+    background-color: #347936;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.main-header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Navigation */
+.main_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Faded overlay */
+        url("../images/profiles/18820257.jpg");
+    background-position: top;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.main_nav a {
+    padding: 20px 20px;
+    margin: 5px;
+    color: #333;
+    background-color: #ffffff;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    width: 85%; 
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size:x-large;
+ 
+}
+.main_nav p{
+    color: #606060;
+    font-size:medium;
+}
+
+.main_nav p1{
+    color: #606060;
+    font-size:large;
+}
+
+.main_nav a:hover {
+    background-color: #c1c1c1;
+    color: #000000;
+}
+
+.main_nav a:focus {
+    background-color: #ddd;
+}
+
+
+/* Upcoming meets section */
+.upcoming-meets {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.upcoming-meets h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.upcoming-meets ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.upcoming-meets ul li {
+    background-color: #e0f7fa; /* Light blue background */
+    border: 1px solid #00796b; /* Darker teal border */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.upcoming-meets ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.main-footer {
+    background-color: #347936;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
